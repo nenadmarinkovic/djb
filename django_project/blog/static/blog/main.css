@@ -1,9 +1,8 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background: #fafafa;
   color: #333333;
   margin-top: 5rem;
-
 }
 
 a {
@@ -106,4 +105,13 @@ a.article-title:hover {
 
 .account-heading {
   font-size: 2.5rem;
+}
+
+.dashboard {
+  background-color: #333 !important;
+}
+
+.text-muted {
+  padding: 10px 0;
+  display: block;
 }

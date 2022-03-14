@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+{% load i18n %}{% load static %}
+{% block title %}{{ title }} | {%trans "TODOAPP | ADMIN " %}{% endblock %} {% block extrastyle %}
+<link rel="stylesheet" type="text/css" href="{% static "admin/admin_color.css" %}"/>
+{% endblock %}
+{% block branding %}
+<h1 id="site-name"> {% trans "Admin" %} </h1>
+{% endblock %}
+{% block nav-global %}
+{% endblock %}
